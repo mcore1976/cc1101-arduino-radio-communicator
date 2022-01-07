@@ -1,8 +1,9 @@
 # cc1101-arduino-radio-communicator
 This is simple half duplex radio communication device built with CC1101 module and Arduino Pro Micro (3.3V / 8MHz) using SmartRC library
-You simply connect your Arduino Pro Micro (Arduino Leonardo clone from Sparkfun) to USB port and launch Putty terminal to communicate over USB Serial port ( /dev/ttyACM0 port in Linux,  COMxx in Windows)
+You simply connect your Arduino Pro Micro (Arduino Leonardo clone from Sparkfun) to USB port of your PC  and launch Putty terminal to communicate over USB Serial port ( /dev/ttyACM0 port in Linux,  COMxx in Windows). Also you may connect this device to Android OTG USB port in your smartphone and use USB Serial Terminal application ( set option CDC driver).
 
-The code code uses SmartRC library (modified Electrohouse library by Little_S@tan) which allows to customize ALL transmission parameters in human readable format without using SmartRF studio from TI (CC1101 parameter customization tool). To use it please download following ZIP library from following github link https://github.com/LSatan/SmartRC-CC1101-Driver-Lib  and attach it to the script in Arduino IDE.
+
+The code uses SmartRC library (modified Electrohouse library by Little_S@tan) which allows to customize ALL transmission parameters in human readable format without using SmartRF studio from TI (CC1101 parameter customization tool). To use it please download following ZIP library from following github link https://github.com/LSatan/SmartRC-CC1101-Driver-Lib  and attach it to the script in Arduino IDE.
 
 
 Arduino Pro Micro board ( ATMEGA32U4 chip ) must support 3.3Volt VCC and 3.3V TTL logic because this is required by CC1101 board, otherwise you will fry CC1101 chip. Please follow this guide to setup your Arduino environment for Arduino Pro Micro board : https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all
