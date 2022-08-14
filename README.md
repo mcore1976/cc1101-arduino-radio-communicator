@@ -22,6 +22,8 @@ ARDUINO PRO MICRO 3.3V / 8MHz <-> CC1101 BOARD
     DIGITAL PIN 16 ( PB2 / MOSI ) <-> CC1101 MOSI
     DIGITAL PIN 14 ( PB3 / MISO ) <-> CC1101 MISO
     DIGITAL PIN 15 ( PB1 / SCK ) <-> CC1101 SCLK / CLK
+    VCC 3.3V  <-> CC1101 VCC
+    GND <-> CC1101 GND
 
 
 The video showing how this device works is available here : https://youtu.be/aRe3WXXtzLU
