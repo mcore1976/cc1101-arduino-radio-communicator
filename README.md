@@ -10,6 +10,8 @@ Arduino Pro Micro board ( ATMEGA32U4 chip ) must support 3.3Volt VCC and 3.3V TT
 
 If you are having issues with uploading the code from Arduino IDE to the board, after pressing "Upload" in Arduino you have to immediatelly short GND+RST pins two times in few seconds. Then bootloader in Arduino Pro Micro will start (common issue) and upload will begin.
 
+
+
 Connections to be made :
 
 ARDUINO PRO MICRO 3.3V / 8MHz <-> CC1101 BOARD
@@ -20,3 +22,6 @@ ARDUINO PRO MICRO 3.3V / 8MHz <-> CC1101 BOARD
     DIGITAL PIN 16 ( PB2 / MOSI ) <-> CC1101 MOSI
     DIGITAL PIN 14 ( PB3 / MISO ) <-> CC1101 MISO
     DIGITAL PIN 15 ( PB1 / SCK ) <-> CC1101 SCLK / CLK
+
+
+The video showing how this device works is available here : https://youtu.be/aRe3WXXtzLU
